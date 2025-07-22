@@ -1,0 +1,20 @@
+[project]
+name = "código"
+version = "0.0.1"
+description = "Primer Proyecto del Diplomado"
+authors = [
+    {name = "DiegoCastro1941",email = "tu_correo_de_github@ejemplo.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.1,<3.0.0)",
+    "numpy (>=2.3.1,<3.0.0)",
+    "torch (>=2.7.1,<3.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
